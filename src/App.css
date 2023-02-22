@@ -16,7 +16,6 @@ button {
 }
 .gridWrapper {
   height: 20vh;
-  width: 20vw;
   display: flex;
   flex-direction: column;
 }
@@ -27,11 +26,15 @@ button {
   margin: 1vw;
 }
 .gridCell {
-  border: 1px solid #7cc5d9;
+  border: 2px solid #7cc5d9;
+  border-radius: 0.4rem;
   height: 6vh;
-  width: 6vw;
+  width: 12vw;
   margin: 1vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.gridCell:hover {
+  background-color: #7cc5d9;
 }
